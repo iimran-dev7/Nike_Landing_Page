@@ -1,0 +1,89 @@
+<!-- NAME: IMRAN , 0005260-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing Page for Nike Sneakers | Elevate Your Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="hero-section">
+        <h1>Elevate Your Game with Nike Sneakers</h1>
+        <p>Unmatched Comfort. Unbeatable Style. Designed for You.</p>
+        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f014625e-1a1d-4944-8395-46a07841a794/JORDAN+SPIZIKE+LOW.png"
+            alt="Nike Sneakers">
+        <br><br>
+        <button class="cta-button" onclick="shopNow()">Shop Now</button>
+    </div>
+
+    <div class="container">
+        <div class="features-section">
+            <h2>Why Choose Nike Sneakers?</h2>
+            <div class="feature-item">
+                <h3>Premium Cushioning</h3>
+                <p>Soft and responsive midsoles for all-day comfort.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Breathable Materials</h3>
+                <p>Advanced fabric technology for optimal airflow.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Durability & Style</h3>
+                <p>Built to withstand every move and match your vibe.</p>
+            </div>
+        </div>
+
+        <div class="products-section">
+            <h2>Our Iconic Collection</h2>
+            <div class="product-card">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/82aa97ed-98bf-4b6f-9d0b-31a9f907077b/AIR+FORCE+1+%2707.png"
+                    alt="Air Force 1">
+                <h3>Nike Air Force 1</h3>
+                <p>$120.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a1342c2b-7b54-4d41-81db-17aec24d07b4/AIR+JORDAN+1+LOW.png"
+                    alt="Air Jordan 1">
+                <h3>Nike Air Jordan 1</h3>
+                <p>$140.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d53a8f06-85e1-4f2a-a79a-edd5887adc56/AIR+ZOOM+PEGASUS+41.png"
+                    alt="Nike Pegasus 39">
+                <h3>Nike Air Zoom Pegasus 41</h3>
+                <p>$180.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Follow Us on Social Media</p>
+            <a href="https://www.instagram.com/nike?igsh=MTA3OTA1MGQ5bzIweQ==">Instagram</a> | <a href="https://www.facebook.com/nike?mibextid=ZbWKwL">Facebook</a> | <a href="https://www.google.com/url?q=https://twitter.com/Nike%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&sa=U&sqi=2&ved=2ahUKEwjgpYTjqvGKAxWUFzQIHa4ALZYQ6F56BAgYEAE&usg=AOvVaw3wkOpb0VNBLT6nrWCVwDYL">Twitter</a>
+        </div>
+    </div>
+
+    <script>
+        function shopNow() {
+            window.location.href = "https://www.nike.com/ca/w/mens-shoes-nik1zy7ok";
+        }
+
+        document.querySelectorAll(".add-to-cart-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                alert("Item added to cart!");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
